@@ -65,24 +65,6 @@ async def snipe(ctx: SlashContext):
             f"There are no recently deleted messages in #{channel.name}")
 
 
-## make sure that the thing can handle pictures
-'''
-image_types = ["png", "jpeg", "gif", "jpg"]
-@bot.event
-async def on_message_delete(message):
-  for attachment in message.attachments:
-      if any(attachment.filename.lower().endswith(image) for image in image_types):
-          await attachment.save(attachment.filename)
-          
-file = open("deleted_files.txt", "r")
-file_len = 0
-for line in file:
-    if line != "\n":
-        file_len += 1
-file.close()
-'''
-
-
 ## purges chat of previous send messages based on certain amoung
 @slash.slash(name = 'purge',
   description='purges the last sent messages',
