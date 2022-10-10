@@ -6,6 +6,7 @@ from discord_slash import SlashCommand, SlashContext
 from discord_slash.utils.manage_commands import create_choice, create_option
 import datetime
 import os
+import keep_alive
 
 bot = commands.Bot(command_prefix="!j ")
 slash = SlashCommand(bot, sync_commands=True)
