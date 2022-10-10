@@ -114,5 +114,6 @@ async def whois(ctx, member : discord.Member):
 async def invite(ctx):
     await ctx.send('https://discord.gg/VkF3z8WmEN')
   
-jalapeño_TOKEN = "TOKEN"
+keep_alive.keep_alive()
+jalapeño_TOKEN = os.environ['jalapeno_TOKEN']
 bot.run(jalapeño_TOKEN)
