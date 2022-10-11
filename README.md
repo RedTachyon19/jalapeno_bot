@@ -23,7 +23,7 @@ for line in file:
 file.close()
 ```
 ### Add-On Censoring
-This is an additional moderation add on function to delete messages with certain words like the North Korean government
+This is an additional moderation add on function to delete messages with certain words like the North Korean government.
 
 ```python
 censored_words = ['karam', 'caliente', 'hot']
