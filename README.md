@@ -22,6 +22,24 @@ for line in file:
         file_len += 1
 file.close()
 ```
+### Add-On 
+This is an additional moderation add on function to delete certain censored words.
+
+```python
+censored_words = [
+'karam',
+'caliente'
+]
+
+#message should not be scanned if sent by a bot
+@bot.event
+async def on_message(message):
+  
+  for word in censored_words:
+    if word in message.content:
+      await message.delete()
+      break  
+```
 
 ### Additional Information
 I use the free version of replit and as a result programs close after an hour on inactivity. To keep this bot online all the time, I used uptimerobot which sends requests to the bot in 5 minute intervals to keep the bot online. If you use an IDE without this limitation, delete "keep_alive.py" and the function "keep_alive()" in "main.py" can be deleted.
