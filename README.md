@@ -35,7 +35,9 @@ async def on_message(message):
   for word in censored_words:
     if word in message.content:
       await message.delete()
-      break  
+      break 
+      
+    await bot.process_commands(message)
 ```
 
 ### Additional Information
