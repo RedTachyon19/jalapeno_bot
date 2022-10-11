@@ -26,4 +26,5 @@ file.close()
 # additional information
 One important note is that this bot is run on replit. I specifically use the free version of replit and as a result programs close after an hour on inactivity. To keep this bot online all the time, it uses uptimerobot that sends requests to the bot in 5 minute intervals to keep the bot online. If you use an IDE without this limitation, the keep_alive.py and the function keep_alive() in main.py can be deleted.
 
+#Author and Reuse information
 This bot is proudly created by Ishan Vemireddy aka RedTachyon19
