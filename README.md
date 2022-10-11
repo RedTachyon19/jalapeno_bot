@@ -26,10 +26,7 @@ file.close()
 This is an additional moderation add on function to delete certain censored words.
 
 ```python
-censored_words = [
-'karam',
-'caliente'
-]
+censored_words = ['karam', 'caliente', 'hot']
 
 #message should not be scanned if sent by a bot
 @bot.event
