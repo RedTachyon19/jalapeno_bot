@@ -3,9 +3,9 @@ This is the code for the japaleno bot. Version control is done on GitHub, and th
 
 https://discord.gg/VkF3z8WmEN
 
-### file snipe add-on
-This is an additional add on to replace the current snipe code under the event message deleted. This saves deleted files with the suffix listed below.
-In order to use this add on, must have a "deleted_files.txt"
+## Add-On File Snipe
+This is an additional add-on to replace the current snipe code under the event message deleted. This saves deleted files with the suffix listed below.
+In order to use this add-on, must have a "deleted_files.txt"
 
 ``` python
 image_types = ["png", "jpeg", "gif", "jpg"]
