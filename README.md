@@ -1,6 +1,7 @@
 # jalapeno_bot
-This is the code for the japaleno bot. Version control is done here on GitHub, and the bot is run on Replit. This is a moderation discord bot that has a variety of commands such as purge, snipe, ping, whois (gives information about a member in the server), invites, ban, and giverole.
+This is the code for the japaleno bot. Version control is done here on GitHub, and the bot is run on Replit. This is a moderation discord bot that has a variety of commands such as purge, snipe, ping, whois (gives information about a member in the server), invites, ban, and giverole. It can be found in my personal discord server Hot Chili:
 
+https://discord.gg/VkF3z8WmEN
 
 # file snipe add-on
 This is an additional add on to replace the current snipe code under the event message deleted. This saves deleted files with the suffix listed below.
@@ -25,6 +26,4 @@ file.close()
 # additional information
 One important note is that this bot is run on replit. I specifically use the free version of replit and as a result programs close after an hour on inactivity. To keep this bot online all the time, it uses uptimerobot that sends requests to the bot in 5 minute intervals to keep the bot online. If you use an IDE without this limitation, the keep_alive.py and the function keep_alive() in main.py can be deleted.
 
-https://discord.gg/VkF3z8WmEN
-
-This is proudly created by Ishan Vemireddy aka RedTachyon19
+This bot is proudly created by Ishan Vemireddy aka RedTachyon19
