@@ -1,5 +1,5 @@
 # jalapeno_bot
-This is the code for the japaleno bot. Version control is done on GitHub, and the bot is run on Replit. This is a moderation discord bot that has a variety of commands such as purge, snipe, ping, whois (gives information about a member in the server), invites, ban, and giverole. It can be found in my personal discord server Hot Chili:
+Tis is the code for the japaleno bot. Version control is done on GitHub, and the bot is run on Replit. This is a moderation discord bot that has a variety of commands such as purge, snipe, ping, whois (gives information about a member in the server), invites, ban, and giverole. It can be found in my personal discord server Hot Chili:
 
 https://discord.gg/VkF3z8WmEN
 
