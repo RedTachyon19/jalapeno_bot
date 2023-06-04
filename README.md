@@ -5,7 +5,7 @@ https://discord.gg/VkF3z8WmEN
 
 ### Add-On File Snipe
 This is an additional add-on to replace the current snipe code under the event message deleted. This saves deleted files with the suffix listed below.
-In order to use this add-on, must have a "deleted_files.txt"
+In order to use this add-on, must create a "deleted_files.txt"
 
 ``` python
 image_types = ["png", "jpeg", "gif", "jpg"]
