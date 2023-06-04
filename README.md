@@ -39,6 +39,11 @@ async def on_message(message):
       
     await bot.process_commands(message)
 ```
+### Requirements
+* discord.py 2.2.3
+* discord-py-slash-command 4.2.1 
+* Flask 2.3.2
+* datetime v3.11.3
 
 ### Additional Information
 I use the free version of replit and as a result programs close after an hour on inactivity. To keep this bot online all the time, I used uptimerobot which sends requests to the bot in 5 minute intervals to keep the bot online. If you use an IDE without this limitation, delete "keep_alive.py" and the function "keep_alive()" in "main.py" can be deleted.
